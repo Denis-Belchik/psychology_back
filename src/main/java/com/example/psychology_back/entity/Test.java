@@ -18,4 +18,7 @@ public class Test {
     @Column(name = "description")
     private String description;
 
+    @Column(name = "instructions")
+    private String instructions;
+
 }
