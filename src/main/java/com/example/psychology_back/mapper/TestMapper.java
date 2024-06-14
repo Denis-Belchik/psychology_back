@@ -15,6 +15,7 @@ public interface TestMapper {
 
     @Mapping(target = "title", source = "title")
     @Mapping(target = "description", source = "description")
+    @Mapping(target = "instructions", source = "instructions")
     TestDto testToTestDto(Test entity);
 
 

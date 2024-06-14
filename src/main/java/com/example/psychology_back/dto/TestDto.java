@@ -8,4 +8,5 @@ public class TestDto {
     private Long id;
     private String title;
     private String description;
+    private String instructions;
 }
